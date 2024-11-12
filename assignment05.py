@@ -28,4 +28,27 @@ def battle_round():
 
 attacker_losses, defender_losses = battle_round()
 
-print(f"Attacker Losses: {attacker_losses}, Defender Losses: {defender_losses}")
+
+# Number of rounds to simulate
+num_rounds = 1000
+
+total_attacker_losses = 0
+total_defender_losses = 0
+
+# Run the simulation for 1000 rounds
+for _ in range(num_rounds):
+    attacker_losses, defender_losses = battle_round()
+    total_attacker_losses += attacker_losses
+    total_defender_losses += defender_losses
+
+# Print the totals
+print(f"Total Attacker Losses: {total_attacker_losses}, Total Defender Losses: {total_defender_losses}")
+
+score= np.array([total_attacker_losses, total_defender_losses])
+mylabels = ["Attacker Losses", "Defender Losses"]
+colours= ["red", "blue"]
+
+plt.figure(figsize=(8, 8))
+plt.pie(score, labels= mylabels, colors= colours, autopct= "%1.1f%%", startangle= 140)
+plt.title("Proportion of Attacker Losses and Defender Losses")
+plt.show()
