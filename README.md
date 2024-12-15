@@ -3,7 +3,7 @@
 This repository contains my assignments for the module Programming For Data Analytics.
 Author: [Joanna Kelly](https://github.com/Shmoooe)
 
-All assignments were completed using [Visual Studio Code](https://code.visualstudio.com/download)
+All assignments were completed using [Visual Studio Code](https://code.visualstudio.com/download).
 
 ## Contents of Repository:
 
@@ -18,7 +18,7 @@ All assignments were completed using [Visual Studio Code](https://code.visualstu
 
 - [assignment03-pie](https://github.com/Shmoooe/PFDA-assignments/blob/main/assignment03-pie.ipynb)
     - created a pie chart of 1000 different email domains.
-    
+
     - [people-1000](https://github.com/Shmoooe/PFDA-assignments/blob/main/people-1000.csv)
         - the csv file from which the data was taken.
 
