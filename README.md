@@ -17,6 +17,8 @@ All assignments were completed using [Visual Studio Code](https://code.visualstu
     - created a plot of temperature over time.
 
 - [assignment03-pie](https://github.com/Shmoooe/PFDA-assignments/blob/main/assignment03-pie.ipynb)
+    - [people-1000](https://github.com/Shmoooe/PFDA-assignments/blob/main/people-1000.csv)
+        - the csv file from which the data was taken.
     - created a pie chart of 1000 different email domains.
 
 - [assingment05](https://github.com/Shmoooe/PFDA-assignments/blob/main/assignment05.py)
